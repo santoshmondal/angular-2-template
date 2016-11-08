@@ -6,8 +6,9 @@ import {Component} from 'angular2/core';
 
 @Component({
     selector : "nest1",
-    templateUrl: "./app/ts/nested.component.html"
+    templateUrl: "./app/ts/nested.component.html",
+    inputs : ['name']
 })
 export class NestedComponent{
-    ndata:string;
+
 }

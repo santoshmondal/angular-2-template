@@ -16,6 +16,7 @@ export class AppComponent2 {
     name:string = Config.cname + "_2";
 
     constructor(){
+        // comment
     }
 }
 
